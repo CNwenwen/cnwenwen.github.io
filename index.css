@@ -1,0 +1,62 @@
+.csscard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 70%;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .csscard-header {
+    background-color: #e9ecef; /* 高级灰色 */
+    color: #183153;
+    padding: 15px;
+  }
+
+  .csscard-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .csscard-content {
+    padding: 16px;
+  }
+
+  .csscard-content p {
+    margin: 0;
+    color: #333; /* 深灰色文字 */
+    line-height: 2;
+  }
+
+  .cssbutton {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 16px;
+    background-color: #90af6d; /* 设置为 #8ca86d */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+  }
+
+  .cssbutton:hover {
+    background-color: #7a9664; /* hover 状态的颜色 */
+  }
+  @font-face {
+      font-family: MoreFont;
+      src: url(4d8f5de29d390fddbb3d9e40682b2f56.ttf);
+  }
+  @font-face {
+    font-family: OPPOSans-B;
+    src: url("https://wolfx.jp/fonts/OPPOSans3.0cn-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: OPPOSans-M;
+    src: url("https://wolfx.jp/fonts/OPPOSans3.0cn-Medium.woff2") format("woff2");
+}
+  * {
+    font-family: OPPOSans-B;
+  }
